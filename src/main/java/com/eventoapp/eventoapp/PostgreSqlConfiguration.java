@@ -7,11 +7,6 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
-import org.springframework.orm.jpa.JpaVendorAdapter;
-import org.springframework.orm.jpa.vendor.Database;
-import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-
-import ch.qos.logback.core.db.dialect.PostgreSQLDialect;
 
 @Configuration
 @Profile("prod")
@@ -34,7 +29,7 @@ public class PostgreSqlConfiguration {
 		return basicDataSource;
 	}
 
-	@Bean
+	/*@Bean
 	public JpaVendorAdapter jpaVendorAdapter() {
 		HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
 
@@ -45,6 +40,6 @@ public class PostgreSqlConfiguration {
 		adapter.setPrepareConnection(true);
 
 		return adapter;
-	}
+	}*/
 
 }
