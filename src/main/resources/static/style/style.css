@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.detalhesEvento {
+	box-shadow: 0 0 5px grey;
+	padding: 20px 0 0 20px;
+	margin-bottom: 70px;
+}
+
+.formConvidado {
+	box-shadow: 0 0 5px grey;
+	padding: 20px 0 10px 20px;
+	margin-bottom: 60px;
+}
+
+.tabelaConvidado {
+	width: 50%;
+}
+
+.formEvento {
+	box-shadow: 0 0 5px grey;
+	padding: 20px 0 10px 20px;
+	margin-bottom: 60px;
+}
