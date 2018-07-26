@@ -14,7 +14,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import ch.qos.logback.core.db.dialect.PostgreSQLDialect;
 
 @Configuration
-@Profile(value = "prod")
+@Profile("prod")
 public class PostgreSqlConfiguration {
 
 	@Bean

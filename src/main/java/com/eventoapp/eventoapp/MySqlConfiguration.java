@@ -12,7 +12,7 @@ import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 
 @Configuration
-@Profile(value = "dev")
+@Profile("dev")
 public class MySqlConfiguration {
 
 	@Bean
